@@ -1,0 +1,24 @@
+{
+  "name": "particle-example",
+  "version": "1.0.0",
+  "description": "An example express app showing how to toggle lights and read input",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gelicia/particle-example.git"
+  },
+  "author": "Kristina Durivage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gelicia/particle-example/issues"
+  },
+  "homepage": "https://github.com/gelicia/particle-example",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "restler": "^3.4.0"
+  }
+}

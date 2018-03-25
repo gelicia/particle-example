@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Particle Example</title>
+    <script
+            src="http://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body onload="init()">
+ <h2>The temperature is <span id="temperature">loading...</span></h2>
+ <hr/>
+ <p>Set a color and click the LED to set the LED to that color. Values must be between 0-255.</p>
+ <label>Red <input id="red" type="number" min="0" max="255" value="0"></label> <br/>
+ <label>Green <input id="green" type="number" min="0" max="255" value="0"></label> <br/>
+ <label>Blue <input id="blue" type="number" min="0" max="255" value="0"></label> <br/>
+ <br/>
+ <button id="button_0">Light LED 1</button>
+ <button id="button_1">Light LED 2</button>
+ <button id="button_2">Light LED 3</button>
+ <button id="button_3">Light LED 4</button>
+ <button id="button_4">Light LED 5</button>
+</body>
+</html>
